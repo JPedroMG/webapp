@@ -1,0 +1,11 @@
+.bordeAzul{
+	border: 5px solid lightblue !important;
+}
+
+.bordeVerde{
+	border: 5px solid lightgreen !important;
+}
+
+.letraGrande{
+	font-size: 40px;
+}
