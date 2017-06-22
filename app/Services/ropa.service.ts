@@ -23,4 +23,5 @@ export class RopaService{
     	this.coleccion_ropa.splice(index,1);
     	return this.getRopa();
     }
+    
 }
