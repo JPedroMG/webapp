@@ -5,10 +5,12 @@
   </h1>
   <hr>
   <nav>
-    <a [routerLink]="['/home']">Home</a>
-    <a [routerLink]="['/fruta']">Fruta</a>
-    <a [routerLink]="['/empleado']">Empleado</a>
-    <a [routerLink]="['/contacto']">Contaco</a>
+    <a [ngStyle]="{'background':'lightBlue'}" [routerLink]="['/home']" [routerLinkActive]="['activado']">Home</a>
+    <a [ngStyle]="{'background':'lightBlue'}" [routerLink]="['/fruta']" [routerLinkActive]="['activado']">Fruta</a>
+    <a [ngStyle]="{'background':'lightBlue'}" [routerLink]="['/empleado']" [routerLinkActive]="['activado']">Empleado</a>
+    <a [ngStyle]="{'background':'lightBlue'}" [routerLink]="['/coches']" [routerLinkActive]="['activado']">Coches</a>
+    <a [ngStyle]="{'background':'lightBlue'}" [routerLink]="['/contacto']" [routerLinkActive]="['activado']">Contaco</a>
+
   </nav>
   <!-- <fruta></fruta> -->
   <!-- <empleado></empleado> -->
