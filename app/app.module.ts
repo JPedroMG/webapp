@@ -13,7 +13,7 @@ import { ConversorPippe } from './pippes/conversor.pippe';
 import { CochesComponent } from './coches/coches.component'
 
 @NgModule({
-  declarations: [ //todo lo que tenga que ver con directivas, pippes y componentes
+  declarations: [//todo lo que tenga que ver con directivas, pippes y componentes
     AppComponent,
     FrutaComponent,
     EmpleadoComponent,
