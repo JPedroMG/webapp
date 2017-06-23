@@ -31,7 +31,7 @@ export class FrutaComponent{
 		this.cambiarErdad(22);
 		//alert(this.nombre);
 
-		//variables y alcance 
+		//variables y alcance;
 		var uno=8
 		var dos=15
 		console.log("afuera del if"+uno)
