@@ -33,7 +33,7 @@ export class CochesComponent {
 				console.log(errorMensaje);
 			}
 		);
-		//console.log(this._peticionesService.getPrueba());
+		///console.log(this._peticionesService.getPrueba());
 	}
 
 	onSubmit(){
