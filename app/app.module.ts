@@ -11,6 +11,7 @@ import { HomeComponent} from './home/home.component';
 import { Probando123Component } from './probando123/probando123.component';
 import { ConversorPippe } from './pippes/conversor.pippe';
 import { CochesComponent } from './coches/coches.component'
+import {HttpModule} from '@angular/http';
 
 
 @NgModule({
@@ -26,7 +27,7 @@ import { CochesComponent } from './coches/coches.component'
   ],
   imports: [
     BrowserModule,FormsModule,
-    routing
+    routing,HttpModule
   ],
   providers: [appRoutingProviders],
   bootstrap: [AppComponent]
