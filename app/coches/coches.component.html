@@ -27,3 +27,11 @@
 		</li>
 	</ul>
 </div>
+
+	<h3>Listado de coches</h3>
+	<ul *ngIf="articulos">
+		<li *ngFor="let articulo of articulos">
+			{{articulo.id}} - {{articulo.title}}
+		</li>
+	</ul>
+	<span *ngIf="!articulos">cargando...</span>
