@@ -11,6 +11,7 @@ import { HomeComponent} from './home/home.component';
 import { Probando123Component } from './probando123/probando123.component';
 import { ConversorPippe } from './pippes/conversor.pippe';
 import { CochesComponent } from './coches/coches.component'
+import { PlantillasComponent } from './plantillas/plantillas.component'
 import {HttpModule} from '@angular/http';
 
 
@@ -23,7 +24,8 @@ import {HttpModule} from '@angular/http';
     HomeComponent,
     Probando123Component,
     ConversorPippe,
-    CochesComponent
+    CochesComponent,
+    PlantillasComponent
   ],
   imports: [
     BrowserModule,FormsModule,
