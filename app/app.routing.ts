@@ -1,26 +1,19 @@
 import { ModuleWithProviders } from '@angular/core';
-import { Routes, RouterModule} from '@angular/router';
+import { Routes, RouterModule } from '@angular/router';
 
-//importar componentes a los que deseas acceder
-import { EmpleadoComponent } from './empleado/empleado.component';
-import { FrutaComponent } from './fruta/fruta.component';
-import { ContactoComponent} from './contacto/contacto.component';
-import { HomeComponent} from './home/home.component';
-import { CochesComponent} from './coches/coches.component';
-import { PlantillasComponent} from './plantillas/plantillas.component';
+//componentes
+import { HomeComponent } from './components/home.component';
+import { ErrorComponent } from './components/error.component';
+import { ProductosListComponent } from './components/productos.component';
+import { ProductoAddComponent } from './components/producto-add.component';
 
-const appRoutes:Routes = [
-	{path: '', component:HomeComponent},
-	{path: 'empleado', component:EmpleadoComponent},
-	{path: 'fruta', component:FrutaComponent},
-	{path: 'home', component:HomeComponent},
-	{path: 'contacto', component:ContactoComponent},
-	{path: 'coches', component:CochesComponent},
-	{path: 'contacto/:page', component:ContactoComponent},
-	{path: 'plantillas', component:PlantillasComponent},
-	{path: '**', component:HomeComponent}
+const appRoutes: Routes=[
+	{path:'', component: HomeComponent},
+	{path:'home', component: HomeComponent},
+	{path:'productos', component: ProductosListComponent},
+	{path:'crear-producto', component: ProductoAddComponent},
+	{path:'**', component: ErrorComponent}
 ];
 
-export const appRoutingProviders:any[]=[];
-
-export const routing: ModuleWithProviders = RouterModule.forRoot(appRoutes)
+export const appRoutingProviders:any[] =[];
+export const routing: ModuleWithProviders = RouterModule.forRoot(appRoutes);

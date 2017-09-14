@@ -1,17 +1,81 @@
-.bordeAzul{
-	border: 5px solid lightblue !important;
+#content{
+	border:1px solid #eee;
+	margin-top: 30px;
+	background: white;
+	border-radius: 2px;
+	box-shadow: 0px 2px 5px #ccc;
 }
 
-.bordeVerde{
-	border: 5px solid lightgreen !important;
+#header{
+	background: #1C1C24;
+	color: white;
+	margin:0px;
+	height: 90px;
+	line-height: 90px;
 }
 
-.letraGrande{
-	font-size: 40px;
+#header h1{
+	line-height: 50px;
+	display: block;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+#subtitle{
+	font-size: 20px;
+}
+
+#nav{
+	margin: 0px;
+	padding: 0px;
+	background: #FCCB26;
+	height: 20px;
+}
+
+#nav ul{
+	list-style: none;
+	margin:0px;
+	padding-left: 20px;
+}
+
+#nav ul li{
+	float:left;
+	margin-right: 20px;
+}
+
+#nav ul li a{
+	color: white;
+	height: 20px;
+	display: block;
+	padding-left: 10px;
+	padding-right: 10px;
+	transition: all 300ms;
+}
+
+#nav ul li a:hover{
+	text-decoration: none;
+	background: #c4a53e;
 }
 
 .activado{
-	color: red;
-	font-weight: bold;
-	background: black;
+	text-decoration: none !important;
+	background: #c4a53e !important;
+}
+
+#main .jumbotron{
+	padding: 50px;
+	margin-top: 30px;
+	border-radius: 5px;
+}
+
+#footer{
+	margin-top: 30px;
+	background: #1C1C24;
+	color: gray;
+	padding-top: 10px;
+	border: 1px solid #eee;
+}
+
+#form-producto label{
+	margin-top: 10px;
 }
